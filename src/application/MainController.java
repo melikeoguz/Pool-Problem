@@ -52,7 +52,7 @@ public class MainController{
 			        node.addAttribute("ui.label", node.getId());
 			    }
 			  
-			graph.display();
+		//	graph.display();
 			
 			
 			Main.set_Pane(1);
