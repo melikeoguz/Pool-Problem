@@ -24,7 +24,7 @@ Girilen bilgiler doğrultusunda havuzu dolduracak suyun geçeceği tesisatın g�
 
 Daha sonra yine arayüz üzerinden kullanıcı <code>Maksimum Akış</code> veya <code>Mimimum Akış</code> butonlarına tıklayarak hangi boru hattı ve musluklar açılırsa havuz en kısa sürede dolar ve boşaltılır diye görür. Görsel açıdan bu bilgiler kullanıcıya gösterildikten sonra program sona erer.
 
-
+</br>
 <h4><code>2- Temel Bilgiler</code></h4>
 
 * Program, Java dilinde geliştirilmiş olup debug
@@ -38,8 +38,8 @@ projeye entegre edilmiştir. JavaFx'in tasarımı
 
 [<img src="https://hayalindekiyasam.files.wordpress.com/2020/07/butt2.png">](https://www.youtube.com/watch?v=ejx3VxuIc8w)
 
+</br>
 <h4><code>3- Tasarım</code></h4>
-
 
 <p>Proje aşağıdaki başlıklar altında geliştirilmiştir.</p>
 
@@ -65,7 +65,7 @@ Layered eklenerek daha önce hazırlanmış olan arayüzler arasında geçiş ya
 <code><b>EdgeInfo (class):</b></code> Klavye üzerinden kullanıcıdan alınan musluk bağlantı bilgilerinin yani birinci düğümün, ikinci düğümün  ve kapasitenin tutulduğu sınıftır.
 
 
-
+</br>
 <h4><code>4- Karşılaşılan Sorunlar ve Çözümleri</code></h4>
 
  <h6><code>4.1- Javafx.scene.layout.AnchorPane Can Not Be Cast o javafx.scene.layout.GirdPane Hatasının Alınması</code></h6>
@@ -73,6 +73,7 @@ Layered eklenerek daha önce hazırlanmış olan arayüzler arasında geçiş ya
 * Daha önce Anchor Pane kullanarak oluşturduğumuz arayüzlerimizi Grid Pane olarak bir nesne listesinde tutmak isteidiğimizde karşımıza çıkan hata türüdür. Çözümü için "First.fxml" adlı dosyanın kodlarını inceledik ve <code>< AnchorPane> < /AnchorPane ></code> tagleri <code>< GridPane > < /GridPane ></code> olarak değiştirilmiştir.
  </br></br>
  
+ </br>
  <h4><code>5- Kullanılan Algoritmalar</code></h4>
 
 
@@ -148,6 +149,7 @@ olarak 1993 yılında yayınlandı.
 
 olarak döndür.
 
+</br>
 <h4><code>6. Havuz Problemi Pseudo Kod</code></h4>
 
 **1-** Kullanıcıdan musluk sayısını al.
@@ -172,7 +174,7 @@ olarak döndür.
 
 **11-** Programı sonlandır.
 
-
+</br>
 <h4><code>7- Kazanımlar</code></h4>
 
 
@@ -191,12 +193,12 @@ birçok nesnenin kullanımının öğrenilmesi
 **6-** Karmaşıklık analizinin nasıl yapılacağını
 öğrenmek
 
-
+</br>
 <h4><code>8- Projenin Videosu</code></h4>
 
 ![](https://hayalindekiyasam.files.wordpress.com/2020/07/pool-problem-1.gif)
 
-
+</br>
 <h4><code>9- Kaynakça</code></h4>
 
 [1] [http://graphstream-project.org/](http://graphstream-project.org/)
