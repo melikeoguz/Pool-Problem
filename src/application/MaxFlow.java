@@ -113,7 +113,7 @@ public class MaxFlow
         	for(int j = 0; j < FirstPageController.graph.getNodeCount(); j++ ) {
         		if(FirstPageController.graphFinal[i][j] != 0) {
         			String newLabel = Integer.toString(resultGraph[i][j]) +  " / " +  Integer.toString(FirstPageController.graphFinal[i][j]);
-        			System.out.println("burasi :" + Integer.toString(resultGraph[i][j]) +  " / " +  Integer.toString(FirstPageController.graphFinal[i][j]));
+        		//	System.out.println("burasi :" + Integer.toString(resultGraph[i][j]) +  " / " +  Integer.toString(FirstPageController.graphFinal[i][j]));
 	
         		     Iterator<Edge> k = FirstPageController.graph.getEdgeIterator();
         		     while (k.hasNext()) {
