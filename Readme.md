@@ -45,7 +45,6 @@ projeye entegre edilmiştir. JavaFx'in tasarımı
 
 <h5><code>3.1 Yazılım Tasarımı</code></h5>
 </br>
-<h6><code>3.1.1- Oluşturulan Sınıflar</code></h6>
 
 <code><b>Main (class):</b></code> Projenin başlatıldığı classtır. Burada bir adet **Scene** oluşturulur. Bu ekran üzerinden kullanıcıdan musluk sayısı verisi alınır. **Cizdir** adlı butonuna basılarak graf yeni pencerede açılır.
 Layered eklenerek daha önce hazırlanmış olan arayüzler arasında geçiş yapabilmek için bir adet **Anchor Pane** oluşturulmuştur. Daha sonra <b>Grid Paneler</b> bu Anchor Pane'in çocukları olarak eklenmiştir. Sırası ile arayüzler arasında geçişler yapılır.
